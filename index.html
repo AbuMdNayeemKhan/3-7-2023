@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 tabs</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        @media (max-width: 1500px) {
+            .hello{
+                display: flex;
+                justify-content: center;
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            li{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!--====================TABS PRICE START==================== -->
+<div class="container">
+    <!-- <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+        </div>
+    </nav> -->
+    <div class="hello">
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Abu Md Nayeem Khan</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Mo Zioun Khan</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Tanbin Rahman Tishat</button>
+            </li>
+        </ul>
+    </div>
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque odit voluptates, provident itaque cupiditate excepturi libero neque. Magni ratione accusantium obcaecati non sint quam, voluptatibus molestiae mollitia dolorem. Adipisci eligendi eaque voluptates corrupti, odio eos voluptatum mollitia, quibusdam itaque blanditiis veritatis incidunt explicabo, asperiores pariatur earum. Recusandae dolor ad suscipit!</div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque odio necessitatibus laborum eum quos, non maiores tempore sequi nobis quisquam similique, possimus error blanditiis tenetur nostrum. Quidem odit ab repellendus.</div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio alias perferendis impedit totam qui temporibus deleniti sequi dignissimos vero voluptatibus.</div>
+    </div>
+</div>
+<!--====================TABS PRICE ENDED==================== -->
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
